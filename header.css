@@ -1,0 +1,42 @@
+header{
+    background-color: rgb(224, 25, 25);
+    width: 100%;
+    text-align: left;
+    display: flex;
+}
+
+
+form{
+    display: flex;
+    margin: auto;
+    margin-left: 500px;
+}
+
+header>span{
+    display: flex;
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+form>input{
+    font-size: 24px;
+    background-color: white;
+    padding: 7px;
+    border-radius: 5px;
+    border: solid 1px grey;
+    width: 500px;
+}
+
+button{
+    font-size: 26px;
+    margin: 2px;
+    height: 22px;
+    margin-left: -40px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
